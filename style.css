@@ -246,6 +246,7 @@ h2{
 
 .books{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book{
@@ -288,4 +289,16 @@ h2{
 .book__price--normal{
     text-decoration: line-through;
     color: gray;
+}
+
+
+/*
+    EXPLORE
+*/
+
+.explore__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
